@@ -1,0 +1,807 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+	border:0;
+	margin:0;
+	
+}
+body
+{
+	font:16px Tahoma, Geneva, Arial;
+	line-height:10px;
+	color:#000;	
+}
+#header
+{
+	background: transparent url("../Images/Header%20and%20Footer/menubar_web(ori).png") no-repeat;
+	height:210px;
+	width:100%;
+	position:fixed;
+	z-index:100;
+	
+
+}
+#footer
+{
+	
+	width:100%;
+	background-color:#F5F5DC;
+}
+.ex
+{
+	width:100%;
+	height:50px;
+}
+#contents
+{
+	
+	width:100%;
+	padding-top:200px;
+}
+.pav a
+{
+	display:block;
+	text-decoration:none;
+	padding:5px;
+	color:#FFF;
+	font-family:"Palatino Linotype", "Book Antiqua", "Arial", "serif";
+	font-size:20px;
+}
+.pav li
+{
+	margin-right:30px;
+	float:left;
+	position:relative;
+	margin-top:75px;
+	width:11.4%;	
+}
+.pav
+{
+	list-style:none;
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+	margin-left:175px;
+	padding-left:10px;
+	position:relative;
+	z-index:5;
+}
+.pav a:hover{
+	color:#CCC;
+	text-decoration:none;
+}
+.pav a:active
+{
+	color:#999;
+}
+.pav ul
+{
+	background-color:#000;
+	list-style::none;
+	position:absolute;
+	left:-9999px;
+}
+.pav ul li
+{
+	margin-bottom:30px;
+	width:20%;
+	float:none;
+	height:5px;
+}
+.pav ul a
+{
+	white-space:nowrap;
+	margin-bottom:200px;
+}
+.dbtn
+{
+	margin-bottom:50px;
+}
+.pav li:hover ul
+{
+	left:0;
+}
+.pav li:hover a
+{
+	background-color:none;
+	text-decoration: overline;
+}
+.pav li:hover ul a
+{
+	text-decoration:none;
+}
+.pav li:hover ul li a:hover
+{
+	background-color:none;
+	text-decoration: underline;
+}
+.pav li:hover ul li a:active
+{
+	color:#999;
+}
+#FM
+{
+	float:left;
+    background-color:#F5F5DC;
+	height:62px;
+	width:200px;
+	margin-bottom:80%;
+	margin-top:2%;
+	margin-left:80%;
+}
+#search
+{
+	margin-left:108px;
+	height:18px;
+	margin-bottom:10px;
+	font-size: 12.5px;
+	background-color:#FEFFEF;
+	margin-top:2px;
+}
+#table2
+{
+	float:left;
+	height:300px;
+	width:27%;
+}
+#table1
+{
+	float:left;
+	height:300px;
+	width:48%;
+}
+#fothed
+{
+	font-size: 36px;
+	padding-left:6%;
+	padding-top:30px;
+	font-family: "Times New Roman", "Arial";
+}
+#fotBDC
+{
+	font-size: 14px;
+	padding-left:15%;
+	padding-bottom:60px;
+	font-family:"Arial";
+}
+#add
+{
+	font-size:12px;
+	padding-left:15%;
+	font:"Arial";
+	line-height:20px;
+	padding-bottom:50px;
+}
+#extra
+{
+	height:20px;
+}
+#unis
+{
+	text-align:center;
+	padding-bottom:10%;
+	font-size:23px;
+	padding-top:5%;
+	font-family: "Times New Roman", "Arial";
+}
+.unisimgs
+{
+	float:left;
+	padding-left:20px;
+	height:100px;
+	padding-bottom:30px;
+}
+#IDTA
+{
+	float:left;
+	padding-left:20px;
+	padding-top:35px;
+}
+#MIT
+{
+	background:top transparent url("../Images/Contents/Location%20and%20promo/mit_spring.png")
+no-repeat;
+height:800px;
+}
+#table3
+{
+	float:left;
+	height:300px;
+	width:25%;
+	font-size:14px;
+	font-family:"Arial";
+	text-align:center;
+	padding-left:10%;
+	
+}
+#FUO
+{
+	padding-bottom:50px;
+	padding-top:20px;
+	font-size:20px;
+	font-family:"Times New Roman","Arial";
+}
+#intro
+{
+	padding-top:60px;
+	height:600px;
+	margin-left:7%;
+}
+#BT1
+{
+	float:left;
+	width:25%;
+	height:300px;
+	margin-top:50px;
+	padding-left:5%;	
+}
+#BT2
+{
+	float:left;
+	height:300px;
+	width:25%;
+	padding-left:5%;
+	margin-top:50px;	
+}
+#BT3
+{
+	float:left;
+	width:25%;
+	height:300px;
+	padding-left:5%;
+	margin-top:50px;
+}
+#Big
+{
+	padding-top:30px;
+	padding-left:5%;
+	height:361px;
+	z-index:100;
+	background: transparent  url("../Images/Header%20and%20Footer/img22(3).jpg")   no-repeat;
+}
+.breadcrumb
+{
+	height:15px;
+	margin-top:10px;
+}
+.breadcrumb a
+{
+	margin-left:1%;
+	text-decoration:none;
+	color:#000;
+}
+.breadcrumb a:hover
+{
+	text-decoration:underline;
+	color:purple;
+}
+#licences
+{
+	width:100%;
+	float:left;
+	padding-top:10px;
+	text-align:right;
+	
+}
+#brief
+{
+	width:100%;
+	font-family:"Arial";
+	font-size:11px;
+	line-height:18px;
+	text-align:right;
+}
+#LITAB
+{
+	width:100%;
+	float:left;	
+}
+.socialmedia
+{
+	padding-bottom:70px;
+	padding-left:10%;
+	width:14%;
+	height:28px;
+	float:left;
+}
+.bigheading
+{
+	font-size:50px;
+	color:#999;
+	font-family:"Times New Roman","Arial";
+	padding-top:55px;
+	padding-left:5.5%;
+}
+.secondheading
+{
+	font-size:33px;
+	color:#999;
+	font-family:"Times New Roman","Arial";
+	padding-top:35px;
+}
+#thirdheading
+{
+	font-size:24px;
+	color:#FFF;
+	font-family:"Times New Roman","Arial";
+	line-height:30px;
+	padding-top:30px;
+	padding-left:5%;
+}
+#big2
+{
+	width:100%;
+	height:400px;
+	margin-top:60px;
+}
+.Dance
+{
+	padding-top:50px;
+	color:#999;
+	font-size:60px;
+	text-align:center;
+}
+.dancingis
+{
+	font-size:24px;
+	color:#000;
+	font-family:"Times New Roman","Arial";
+	line-height:30px;
+	padding-top:40px;
+	padding-left:28%;
+}
+.LM
+{
+	text-align:center;
+	height:50px;
+	width:200px;
+	background-color:#CCC;
+	margin-left:45%;
+	margin-top:40px;
+}
+.lmm
+{
+	padding-top:20px;
+	font-size:17px;
+}
+.lmm a
+{
+	text-decoration:none;
+	color:#000;
+}
+.lmm a:hover
+{
+	color:purple;
+	text-decoration:underline;
+}
+.lmm2
+{
+	text-align:center;
+	background-color:#CCC;
+	height:40px;
+	width:150px;
+	margin-top:20px;
+	margin-left:3%;
+}
+.lmm1
+{
+	padding-top:8px;
+	font-size:17px;	
+}
+.lmm1 a
+{
+	text-decoration:none;
+	color:#000;
+}
+.lmm1 a:hover
+{
+	color:purple;
+	text-decoration:underline;
+}
+.btt
+{
+ 	padding-top:40px;
+	font-family:"Times New Roman","Arial";
+	font-size:20px;	
+}
+.info
+{
+	width:100%;
+	height:100px;
+	margin-top:0px;
+	line-height:10px;
+}
+#inn
+{
+	height:50px;
+	margin-top:110px;
+}
+.infoo1
+{
+	font-size:30px;
+	font-family:"Times New Roman","Arial";
+	padding-left:11%;
+	font-weight:300;
+	color:#333;	
+}
+.Ans
+{
+	padding-lefft:11%;
+	font-size:25px;
+	font-family:"Times New Roman","Arial";
+	padding-top:14px;
+	padding-left:11%;
+	color:#000;
+}
+.Ans a
+{
+	text-decoration:none;
+}
+.Ans a:hover
+{
+	text-decoration:underline;
+	color:purple;
+}
+#whydance
+{
+	margin-left:20%;
+}
+#dancingimg{
+	width:100%;}
+#dancingbig
+{
+	width:100%;
+	margin-top:60px;
+}
+.tbt
+{
+	width:100%;
+	margin-top:50px;
+}
+.tbta
+{
+	padding-top:35px;
+	text-align:center;
+}
+.ings
+{
+	padding-top:10px;
+	padding-left:1%;
+}
+#his
+{
+	background:transparent url("../Images/Contents/Dancers/dance-thumb(1).jpg") no-repeat;	
+	height:200px;
+	margin-left:1%;
+	margin-top:150px;
+}
+.Danc
+{
+	padding-top:10px;
+	padding-left:37%;
+	font-size: 30px;
+	color:#F00;	
+	font-family:"Arial";
+}
+.Dancc
+{
+	padding-left:35%;
+	color:#000;
+	padding-top:30px;
+	font-size:24px;
+	line-height:30px;
+	font-family:"Times New Roman","Arial";	
+}
+#his1
+{
+	background:right transparent url("../Images/Contents/Dancers/dance_type_thumbnail_tango.jpg") no-repeat;
+	height:200px;
+	margin-right:10%;
+	margin-top:100px;
+}
+#his2
+{
+	background:left transparent url("../Images/Contents/Dancers/dance_type_thumbnail_rumba.jpg") no-repeat;
+	height:200px;
+	margin-left:10%;
+	margin-top:100px;
+}
+.Da
+{
+	padding-top:10px;
+	padding-left:21%;
+	font-size: 30px;
+	color:#F00;	
+	font-family:"Arial";
+}
+.Dan
+{
+	padding-left:19%;
+	color:#000;
+	padding-top:30px;
+	font-size:24px;
+	line-height:30px;
+	font-family:"Times New Roman","Arial";	
+}
+#his3
+{
+	background:right transparent url("../Images/Contents/Dancers/dance_type_thumbnail_waltz.jpg") no-repeat;
+	height:200px;
+	margin-right:10%;
+	margin-top:100px;
+}
+#his4
+{
+	background:left transparent url("../Images/Contents/Dancers/dance_type_thumbnail_samba.jpg") no-repeat;	
+	height:200px;
+	margin-left:10%;
+	margin-top:100px;
+}
+.a
+{
+	text-decoration:none;
+}
+.a:hover
+{
+	text-decoration:underline;
+	color:purple;	
+}
+#CI
+{
+	
+	background:right transparent url("../Images/Contents/Location%20and%20promo/images-3.jpeg") no-repeat;
+	margin-top:100px;
+	margin-right:10%;
+}
+#CI table
+{
+	margin-left:20%;
+	background:right transparent 
+}
+#video
+{
+	text-align:center;
+	margin-top:100px;	
+}
+#vi
+{
+	text-decoration:none;
+}
+#vi:hover
+{
+	color:purple;
+	text-decoration:underline;
+}
+#banner
+{
+	background:transparent url("../Images/Header%20and%20Footer/IG2.jpg")	
+no-repeat;
+	height:300px;
+	padding-top:70px;
+}
+
+.sbh
+{
+	font-size:45px;
+	color:#FFF;
+	font-family:"Times New Roman","Arial";
+	padding-top:70px;
+	padding-left:17%;
+}
+#register
+{
+	margin-top:100px;
+	width:60%;
+	margin-left:20%;	
+	text-align:center;
+	background-color:#CCC;
+	font-size:16px;
+}
+.rgs
+{
+	margin-left:10%;
+	border:thin;
+	width:30%;
+	height:30px;	
+}
+.tgs
+{
+	margin-top:50px;
+}
+hr
+{
+	margin-top:50px;
+	border: double;
+}
+#member
+{
+	text-align:left;
+	margin-left:10%;
+}
+#mm
+{
+	margin-top:30px;
+}
+.rd
+{
+	margin-top:20px;
+}
+.mmm
+{
+	padding-top:20px;
+}
+#tt
+{
+	margin-left:28%;
+	margin-top:50px;	
+}
+#rgg
+{
+	margin-left:28%;
+	height:100px;
+	width:100%;
+}
+#SG
+{
+	height:100px;
+}
+#SGB
+{
+	margin-right:10%;
+	margin-top:50px;
+	width:20%;
+	height:40px;
+}
+#SGAA
+{
+	margin-left:10%;
+	margin-top:50px;
+	width:20%;
+	height:40px;
+	
+}
+#uniff
+{
+	background: center transparent url("../Images/Contents/Apparels/Portrait.jpg") no-repeat;
+	height:300px;
+}
+.pic
+{
+	text-align:center;
+	margin-top:100px;
+	height:500px;
+}
+
+.unifo
+{
+	padding-left:5%;		
+}
+#BBB
+{
+	height:400px;
+	background:transparent url("../Images/Header%20and%20Footer/64aaf58b-c8ba-4225-b932-428954d96cda2.jpg") no-repeat;	
+}
+#Cla
+{
+	font-size:45px;
+	color:#000;
+	font-family:"Times New Roman","Arial";
+	padding-top:130px;
+	padding-left:12%;
+}
+#Gla
+{
+	font-size:40px;
+	color:red;
+	font-family:"Times New Roman","Arial";
+	padding-top:40px;
+	padding-left:23%;
+}
+#Gla a
+{
+	text-decoration:none;
+	color:red;
+}
+#Gla a:hover
+{
+	text-decoration:underline;
+	color:purple;
+}
+.hdimg
+{
+	text-align:center;
+}
+.hdtxt
+{
+	
+	width:100%;
+	
+}
+.evee
+{
+	padding-top:50px;
+}
+#Back
+{
+	background:left transparent url("../Images/Contents/Dancers/dance_type_thumbnail_musical_theatre1.jpg") no-repeat;
+	height:300px;
+	margin-left:10%;
+	margin-top:50px;
+}
+.D
+{
+	padding-top:70px;
+	padding-left:35%;
+	font-size: 30px;
+	color:#F00;	
+	font-family:"Arial";
+}
+.DD
+{
+	padding-left:33%;
+	color:#000;
+	padding-top:20px;
+	font-size:24px;
+	line-height:30px;
+	font-family:"Times New Roman","Arial";	
+}
+#Kids
+{
+	background:left transparent url("../Images/Contents/Dancers/9adf6a78-455f-42d2-9edf-fb953f1f412b.jpg") no-repeat;
+	height:300px;
+	margin-left:10%;
+}
+#sche
+{
+	font-family:"Times New Roman","Arial";
+	font-size:20px;
+	margin-top:100px;
+	margin-left:26%;
+}
+.csss
+{
+	margin-top:50px;
+	padding-left:5%;
+	margin-right:5%;
+}
+
+#VVV
+{
+	font-size:40px;
+	color:red;
+	font-family:"Times New Roman","Arial";
+	padding-top:40px;
+	padding-left:19%;
+}
+#ppp
+{
+	font-size:30px;
+	color:#000;
+	font-family:"Times New Roman","Arial";
+	line-height:30px;
+	padding-top:50px;
+	padding-left:33%;
+}
+#fothe
+{
+	font-size: 36px;
+	padding-left:6%;
+	padding-top:30px;
+	font-family: "Times New Roman", "Arial";
+}
+#fotBD
+{
+	font-size: 14px;
+	padding-left:15%;
+	padding-bottom:60px;
+	font-family:"Arial";
+}
+#dddd
+{
+	font-size:12px;
+	padding-left:15%;
+	font:"Arial";
+	line-height:20px;
+	padding-bottom:50px;
+}
